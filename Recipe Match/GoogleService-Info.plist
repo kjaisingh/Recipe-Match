@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>797633482810-1f06itmcs9ab2256jp4ks4dnrbo5kkm0.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.797633482810-1f06itmcs9ab2256jp4ks4dnrbo5kkm0</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD7_j7F2Dfn9iI48KyRDJ7Fy6YI5AfuCnU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>797633482810</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.KaranJaisinghOrg.RecipeMatch</string>
+	<key>PROJECT_ID</key>
+	<string>recipe-match</string>
+	<key>STORAGE_BUCKET</key>
+	<string>recipe-match.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:797633482810:ios:4215e008be00c168</string>
+	<key>DATABASE_URL</key>
+	<string>https://recipe-match.firebaseio.com</string>
+</dict>
+</plist>
