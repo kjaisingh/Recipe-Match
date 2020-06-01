@@ -11,9 +11,7 @@
 		80F74358D38F1A9FE196A4E5 /* Pods_Recipe_MatchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 455BF37D7D963AAEFB62B0F1 /* Pods_Recipe_MatchUITests.framework */; };
 		980046B220E19DF000188CA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980046B120E19DF000188CA4 /* AppDelegate.swift */; };
 		980046B420E19DF000188CA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980046B320E19DF000188CA4 /* ViewController.swift */; };
-		980046B720E19DF000188CA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 980046B520E19DF000188CA4 /* Main.storyboard */; };
 		980046B920E19DF000188CA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 980046B820E19DF000188CA4 /* Assets.xcassets */; };
-		980046BC20E19DF000188CA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 980046BA20E19DF000188CA4 /* LaunchScreen.storyboard */; };
 		980046C720E19DF000188CA4 /* Recipe_MatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980046C620E19DF000188CA4 /* Recipe_MatchTests.swift */; };
 		980046D220E19DF000188CA4 /* Recipe_MatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980046D120E19DF000188CA4 /* Recipe_MatchUITests.swift */; };
 		980046E020E19E1200188CA4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 980046DF20E19E1200188CA4 /* GoogleService-Info.plist */; };
@@ -36,6 +34,10 @@
 		988ED0A320E1D717003B67C2 /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988ED0A220E1D717003B67C2 /* Dish.swift */; };
 		988ED0A520E1D806003B67C2 /* MadeDish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988ED0A420E1D806003B67C2 /* MadeDish.swift */; };
 		A393B859154402945491B235 /* Pods_Recipe_MatchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D16F6BB66B5523F85A0F8D45 /* Pods_Recipe_MatchTests.framework */; };
+		AFE1CE0B2484D9AC0080E2BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFE1CE092484D9AC0080E2BB /* Main.storyboard */; };
+		AFE1CE0C2484D9AC0080E2BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFE1CE0A2484D9AC0080E2BB /* LaunchScreen.storyboard */; };
+		AFE1CE0F2484DA570080E2BB /* LaunchScreen.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = AFE1CE0A2484D9AC0080E2BB /* LaunchScreen.storyboard */; };
+		AFE1CE102484DA570080E2BB /* Main.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = AFE1CE092484D9AC0080E2BB /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,9 +68,7 @@
 		980046AE20E19DF000188CA4 /* Recipe Match.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe Match.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		980046B120E19DF000188CA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		980046B320E19DF000188CA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		980046B620E19DF000188CA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		980046B820E19DF000188CA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		980046BB20E19DF000188CA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		980046BD20E19DF000188CA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		980046C220E19DF000188CA4 /* Recipe MatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Recipe MatchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		980046C620E19DF000188CA4 /* Recipe_MatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe_MatchTests.swift; sourceTree = "<group>"; };
@@ -93,6 +93,8 @@
 		988ED0A020E1D6A4003B67C2 /* UserDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetails.swift; sourceTree = "<group>"; };
 		988ED0A220E1D717003B67C2 /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
 		988ED0A420E1D806003B67C2 /* MadeDish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MadeDish.swift; sourceTree = "<group>"; };
+		AFE1CE092484D9AC0080E2BB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		AFE1CE0A2484D9AC0080E2BB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D16F6BB66B5523F85A0F8D45 /* Pods_Recipe_MatchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Recipe_MatchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED42E7EB0C74AAF5F586AE52 /* Pods-Recipe MatchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Recipe MatchUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Recipe MatchUITests/Pods-Recipe MatchUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -173,29 +175,17 @@
 		980046B020E19DF000188CA4 /* Recipe Match */ = {
 			isa = PBXGroup;
 			children = (
-				980046B520E19DF000188CA4 /* Main.storyboard */,
-				9833DEEA210AECEB00321305 /* GlobalVariables.swift */,
-				988ED0A020E1D6A4003B67C2 /* UserDetails.swift */,
-				988ED0A220E1D717003B67C2 /* Dish.swift */,
-				988ED0A420E1D806003B67C2 /* MadeDish.swift */,
-				980046E320E1A5EA00188CA4 /* OpeningScreen.swift */,
-				980046E720E1ACC100188CA4 /* SignUp.swift */,
-				980046E520E1ACB600188CA4 /* Login.swift */,
-				988ED09820E1C2C7003B67C2 /* Search.swift */,
-				9833DEEC210C27D400321305 /* IngredientSearch.swift */,
-				9833DEE4210ABFAC00321305 /* SearchResults.swift */,
-				98899200210DB5CE005FA2AD /* SingleResult.swift */,
-				988ED09A20E1C2E4003B67C2 /* History.swift */,
-				98899202210EAFC5005FA2AD /* SingleHistory.swift */,
-				988ED09C20E1C2F0003B67C2 /* Saved.swift */,
-				98899204210EB34B005FA2AD /* SingleSaved.swift */,
-				988ED09E20E1C2FC003B67C2 /* Profile.swift */,
-				980046B820E19DF000188CA4 /* Assets.xcassets */,
-				980046B120E19DF000188CA4 /* AppDelegate.swift */,
+				AFE1CE0A2484D9AC0080E2BB /* LaunchScreen.storyboard */,
+				AFE1CE092484D9AC0080E2BB /* Main.storyboard */,
+				AFE1CE152484FA060080E2BB /* Configuration */,
+				AFE1CE142484F9C30080E2BB /* User */,
+				AFE1CE112484F96F0080E2BB /* Search */,
+				AFE1CE132484F9BF0080E2BB /* Saved */,
+				AFE1CE122484F9B80080E2BB /* History */,
 				980046B320E19DF000188CA4 /* ViewController.swift */,
-				980046BA20E19DF000188CA4 /* LaunchScreen.storyboard */,
 				980046BD20E19DF000188CA4 /* Info.plist */,
 				980046DF20E19E1200188CA4 /* GoogleService-Info.plist */,
+				980046B820E19DF000188CA4 /* Assets.xcassets */,
 			);
 			path = "Recipe Match";
 			sourceTree = "<group>";
@@ -218,6 +208,58 @@
 			path = "Recipe MatchUITests";
 			sourceTree = "<group>";
 		};
+		AFE1CE112484F96F0080E2BB /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				988ED09820E1C2C7003B67C2 /* Search.swift */,
+				9833DEEC210C27D400321305 /* IngredientSearch.swift */,
+				9833DEE4210ABFAC00321305 /* SearchResults.swift */,
+				98899200210DB5CE005FA2AD /* SingleResult.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		AFE1CE122484F9B80080E2BB /* History */ = {
+			isa = PBXGroup;
+			children = (
+				988ED09A20E1C2E4003B67C2 /* History.swift */,
+				98899202210EAFC5005FA2AD /* SingleHistory.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		AFE1CE132484F9BF0080E2BB /* Saved */ = {
+			isa = PBXGroup;
+			children = (
+				988ED09C20E1C2F0003B67C2 /* Saved.swift */,
+				98899204210EB34B005FA2AD /* SingleSaved.swift */,
+			);
+			path = Saved;
+			sourceTree = "<group>";
+		};
+		AFE1CE142484F9C30080E2BB /* User */ = {
+			isa = PBXGroup;
+			children = (
+				980046E320E1A5EA00188CA4 /* OpeningScreen.swift */,
+				988ED09E20E1C2FC003B67C2 /* Profile.swift */,
+				980046E720E1ACC100188CA4 /* SignUp.swift */,
+				980046E520E1ACB600188CA4 /* Login.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		AFE1CE152484FA060080E2BB /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				9833DEEA210AECEB00321305 /* GlobalVariables.swift */,
+				988ED0A220E1D717003B67C2 /* Dish.swift */,
+				988ED0A420E1D806003B67C2 /* MadeDish.swift */,
+				988ED0A020E1D6A4003B67C2 /* UserDetails.swift */,
+				980046B120E19DF000188CA4 /* AppDelegate.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -230,7 +272,6 @@
 				980046AB20E19DEF00188CA4 /* Frameworks */,
 				980046AC20E19DEF00188CA4 /* Resources */,
 				736D0116A5B49A3FACA1A8B1 /* [CP] Embed Pods Frameworks */,
-				2A7194FF684B6D18884B28A0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,8 +290,6 @@
 				980046BE20E19DF000188CA4 /* Sources */,
 				980046BF20E19DF000188CA4 /* Frameworks */,
 				980046C020E19DF000188CA4 /* Resources */,
-				197F957AC9688EFA449048A1 /* [CP] Embed Pods Frameworks */,
-				D30DCB16769460BA1765FF4F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,8 +309,6 @@
 				980046C920E19DF000188CA4 /* Sources */,
 				980046CA20E19DF000188CA4 /* Frameworks */,
 				980046CB20E19DF000188CA4 /* Resources */,
-				EBE14FCA9C3420DB7D1B0077 /* [CP] Embed Pods Frameworks */,
-				267080BF7DF292BCF0D7852B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -334,10 +371,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				980046BC20E19DF000188CA4 /* LaunchScreen.storyboard in Resources */,
+				AFE1CE0B2484D9AC0080E2BB /* Main.storyboard in Resources */,
 				980046E020E19E1200188CA4 /* GoogleService-Info.plist in Resources */,
+				AFE1CE0C2484D9AC0080E2BB /* LaunchScreen.storyboard in Resources */,
 				980046B920E19DF000188CA4 /* Assets.xcassets in Resources */,
-				980046B720E19DF000188CA4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,51 +415,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		197F957AC9688EFA449048A1 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Recipe MatchTests/Pods-Recipe MatchTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		267080BF7DF292BCF0D7852B /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Recipe MatchUITests/Pods-Recipe MatchUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2A7194FF684B6D18884B28A0 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Recipe Match/Pods-Recipe Match-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		3AD587CEBB99A3AA4A085B1B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -447,7 +439,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Recipe Match/Pods-Recipe Match-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Recipe Match/Pods-Recipe Match-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
@@ -470,7 +462,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Recipe Match/Pods-Recipe Match-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Recipe Match/Pods-Recipe Match-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		898F71E0577C0A0F753665A1 /* [CP] Check Pods Manifest.lock */ = {
@@ -491,36 +483,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D30DCB16769460BA1765FF4F /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Recipe MatchTests/Pods-Recipe MatchTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EBE14FCA9C3420DB7D1B0077 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Recipe MatchUITests/Pods-Recipe MatchUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -528,6 +490,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFE1CE0F2484DA570080E2BB /* LaunchScreen.storyboard in Sources */,
+				AFE1CE102484DA570080E2BB /* Main.storyboard in Sources */,
 				9833DEED210C27D400321305 /* IngredientSearch.swift in Sources */,
 				980046B420E19DF000188CA4 /* ViewController.swift in Sources */,
 				988ED09D20E1C2F0003B67C2 /* Saved.swift in Sources */,
@@ -579,25 +543,6 @@
 			targetProxy = 980046CE20E19DF000188CA4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		980046B520E19DF000188CA4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				980046B620E19DF000188CA4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		980046BA20E19DF000188CA4 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				980046BB20E19DF000188CA4 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		980046D420E19DF000188CA4 /* Debug */ = {
